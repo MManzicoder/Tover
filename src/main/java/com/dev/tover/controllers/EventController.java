@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/api/tover/v1/")
+@RequestMapping("/api/tover/v1/events/")
 public class EventController {
     @Autowired
     private IEventService eventService;
